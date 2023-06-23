@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ikony -->
+    <script src="https://kit.fontawesome.com/7d316e0b8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css?v=1">
+    <title>Owczogród</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="zdjecia/owce3.svg" style="width: 50px; " alt="logo">
+                OWCZOGRÓD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav navbarList">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#oferta">Oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cennik">Cennik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dojazd">Dojazd</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- tło i logo -->
+    <div class="heroContainer ">
+        <div class="row h-100">
+            <div class="col"></div>
+            <div class="col d-flex flex-column justify-content-center">
+                <img src="zdjecia/owce2.svg" alt="logo" class="logo">
+                <p class="display-1 text-center  ">OWCZOGRÓD</p>
+                <p class="display-6 text-center">Podróż do krainy owiec i psów pasterskich <br>
+                    dla grup szkolnych i przedszkolnych</p>
+            </div>
+            <div class="col "></div>
+        </div>
+    </div>
+
+    <!-- oferta -->
+    <div id="oferta" class="container">
+        <!-- element oferty -->
+        <div class="row mt-5">
+            <div class="col">
+                <img src="zdjecia/oferta 1.jpg" alt="Owczorgród" class="ofertaZdjęcia">
+            </div>
+            <div class="col-lg-4 d-flex  flex-column justify-content-end">
+                <!-- <p>ZABAWA</p> -->
+                <div class="px-lg-3 py-lg-5 py-2">
+                    <p class="display-5">Warsztaty z wełną</p>
+                    <p>Warsztaty z owczą wełną to świetna okazja, aby nauczyć dzieci nowych umiejętności,
+                        kreatywnie
+                        spędzić czas i odkryć potencjał wełny.</p>
+
+                    <!-- modal trigger -->
+                    <button type="button" class="btn btn-outline-dark czytaj-wiecej" data-toggle="modal"
+                        data-target="#modalWarsztaty">
+                        Czytaj więcej...
+                    </button>
+                    <!-- modal -->
+                    <div class="modal fade" id="modalWarsztaty" tabindex="-1" role="dialog"
+                        aria-labelledby="modalWarsztaty" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
+                            <div class="modal-content backgroundLight">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Warsztaty</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero
+                                    voluptatem eum id officiis cupiditate porro, mollitia aliquam voluptas
+                                    minus, nisi perferendis quos. Tempora fuga officiis numquam molestiae,
+                                    mollitia eaque est quisquam alias. Nulla a vitae vero explicabo quas ullam
+                                    architecto nemo eos nam magnam voluptates blanditiis perferendis commodi
+                                    provident, hic consectetur tempore, rerum similique porro id facere ea
+                                    doloremque voluptatibus! Dolorum omnis iusto, unde ducimus aliquam autem.
+                                    Iusto esse, omnis aut alias accusamus suscipit voluptates placeat nesciunt
+                                    enim nobis et non laborum aliquid laudantium odio blanditiis aspernatur
+                                    possimus consequuntur voluptate iure autem. Sapiente, quaerat laboriosam?
+                                    Praesentium amet adipisci neque?
+                                    <div class="row my-0 g-2  "> <!-- hidden -->
+                                        <div class="col-4 ">
+                                            <div class="box">
+                                                <img src="zdjecia/warsztaty/warsztaty (1).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4 ">
+                                            <div class="box">
+                                                <img src="zdjecia/warsztaty/warsztaty (2).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="box">
+                                                <img src="zdjecia/warsztaty/warsztaty (4).jpg" class="example">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-dark"
+                                        data-dismiss="modal">Powrót</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- koniec elementu oferty -->
+
+        <!-- element oferty -->
+        <div class="row mt-5 ">
+            <div class="col order-lg-2">
+                <img src="zdjecia/oferta 2.jpg" alt="Owczorgród" class="ofertaZdjęcia">
+            </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-end">
+                <div class="px-lg-3 py-lg-5 py-2">
+                    <p class="display-5">Pokaz zaganiania owiec</p>
+                    <p>Zobacz psy pasterskie w akcji!</p>
+                    <!-- modal trigger -->
+                    <button type="button" class="btn btn-outline-dark czytaj-wiecej" data-toggle="modal"
+                        data-target="#modalZaganianie">
+                        Czytaj więcej...
+                    </button>
+                    <!-- modal -->
+                    <div class="modal fade" id="modalZaganianie" tabindex="-1" role="dialog"
+                        aria-labelledby="modalWarsztaty" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
+                            <div class="modal-content backgroundLight">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Pokaz zaganiania owiec
+                                    </h5>
+
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero
+                                    voluptatem eum id officiis cupiditate porro, mollitia aliquam voluptas
+                                    minus, nisi perferendis quos. Tempora fuga officiis numquam molestiae,
+                                    mollitia eaque est quisquam alias. Nulla a vitae vero explicabo quas ullam
+                                    architecto nemo eos nam magnam voluptates blanditiis perferendis commodi
+                                    provident, hic consectetur tempore, rerum similique porro id facere ea
+                                    doloremque voluptatibus! Dolorum omnis iusto, unde ducimus aliquam autem.
+                                    Iusto esse, omnis aut alias accusamus suscipit voluptates placeat nesciunt
+                                    enim nobis et non laborum aliquid laudantium odio blanditiis aspernatur
+                                    possimus consequuntur voluptate iure autem. Sapiente, quaerat laboriosam?
+                                    Praesentium amet adipisci neque?
+                                    <div class="row my-0 g-2  "> <!-- hidden -->
+                                        <div class="col-4 ">
+                                            <div class="box">
+                                                <img src="zdjecia/psy/psy (13).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4 ">
+                                            <div class="box">
+                                                <img src="zdjecia/psy/psy (16).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="box">
+                                                <img src="zdjecia/psy/psy (17).jpg" class="example">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-dark"
+                                        data-dismiss="modal">Powrót</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- koniec elementu oferty -->
+        <!-- element oferty -->
+        <div class="row mt-5">
+            <div class="col">
+                <img src="zdjecia/oferta 3.jpg" alt="Owczorgród" class="ofertaZdjęcia">
+            </div>
+            <div class="col-lg-4 d-flex  flex-column justify-content-end">
+                <div class="px-lg-3 py-lg-5 py-2">
+                    <p class="display-5">Labirynt z siana</p>
+                    <p>Odnajdź drogę przez labirynt!</p>
+                    <!-- modal trigger -->
+                    <button type="button" class="btn btn-outline-dark czytaj-wiecej" data-toggle="modal"
+                        data-target="#modalLabirynt">
+                        Czytaj więcej...
+                    </button>
+                    <!-- modal -->
+                    <div class="modal fade" id="modalLabirynt" tabindex="-1" role="dialog"
+                        aria-labelledby="modalWarsztaty" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
+                            <div class="modal-content backgroundLight">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Labirynt z siana</h5>
+
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vero
+                                    voluptatem eum id officiis cupiditate porro, mollitia aliquam voluptas
+                                    minus, nisi perferendis quos. Tempora fuga officiis numquam molestiae,
+                                    mollitia eaque est quisquam alias. Nulla a vitae vero explicabo quas ullam
+                                    architecto nemo eos nam magnam voluptates blanditiis perferendis commodi
+                                    provident, hic consectetur tempore, rerum similique porro id facere ea
+                                    doloremque voluptatibus! Dolorum omnis iusto, unde ducimus aliquam autem.
+                                    Iusto esse, omnis aut alias accusamus suscipit voluptates placeat nesciunt
+                                    enim nobis et non laborum aliquid laudantium odio blanditiis aspernatur
+                                    possimus consequuntur voluptate iure autem. Sapiente, quaerat laboriosam?
+                                    Praesentium amet adipisci neque?
+                                    <div class="row my-0 g-2">
+                                        <div class="col-4">
+                                            <div class="box">
+                                                <img src="zdjecia/labirynt/lab (2).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4 ">
+                                            <div class="box">
+                                                <img src="zdjecia/labirynt/lab (1).jpg" class="example">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="box">
+                                                <img src="zdjecia/labirynt/lab (3).jpg" class="example">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-dark"
+                                        data-dismiss="modal">Powrót</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- koniec elementu oferty -->
+    </div>
+    <!-- koniec oferty -->
+
+    <!-- kontakt -->
+    <div id="kontakt" class="py-5 my-5 backgroundLight">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col">
+                    <p class="display-5">Kontakt i rezerwacje</p>
+                    <p class="text-muted">
+                        Prosimy o dokonywanie rejestracji telefonicznych na podany poniżej numer:
+                    </p>
+
+                    <table>
+                        <tr>
+                            <td>Telefon:</td>
+                            <td><span class="fw-bold">+48 693 078 034</span></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><span class="fw-bold">
+                                    <a href="mailto:owczogrod@gmail.com">owczogrod@gmail.com</a>
+                                </span></td>
+                        </tr>
+                        <tr><td><br></td></tr>
+                        <tr>
+                            <td>NIP:</td>
+                            <td>5991645030</td>
+                        </tr>
+                        <tr>
+                            <td>REGON: &nbsp;</td>
+                      
+                            <td>211207083</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p>Nr konta do przelewu: 0000 0000 0000 0000</p>
+
+              
+                    <p class="display-5">
+                        Social media
+                    </p>
+
+                    <div class="mt-4 text-sm-center text-lg-start ">
+                        <div class="d-inline me-5">
+                            <a href="https://www.facebook.com/Owczogrod/?locale=pl_PL">
+                                <i class="fa-brands fa-facebook fa-3x"></i></a>
+                        </div>
+                        <div class="d-inline">
+                            <a href="https://www.instagram.com/owczogrod/">
+                                <i class="fa-brands fa-instagram fa-3x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CENNIK -->
+    <div id="cennik" class="container my-5">
+        <div class="row">
+            <p class="display-5">Cennik</p>
+        </div>
+        <div class="row g-2 ">
+            <div class="col-lg-3 d-flex ">
+                <div class="card text-left">
+                    <div class="card-body shadow">
+                        <h4 class="card-title">Warsztaty</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">50zł /osobę</h6>
+                        <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                            voluptatem!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <div class="card text-left">
+                    <div class="card-body shadow">
+                        <h4 class="card-title">Pokaz zaganiania owiec </h4>
+                        <h6 class="card-subtitle mb-2 text-muted">50zł /osobę</h6>
+                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+                            similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+                            magnam.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 d-flex">
+                <div class="card text-left">
+                    <div class="card-body shadow">
+                        <h4 class="card-title">Ognisko</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">30zł /osobę</h6>
+                        <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore,
+                            voluptatem!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 d-flex">
+                <div class="card text-left">
+                    <div class="card-body shadow">
+                        <h4 class="card-title">Inne</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">100zł</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                            culpa?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- koniec cennika -->
+
+    <!-- mapka -->
+    <div id="dojazd" class=" my-5 container">
+        <p class="display-5 text-left">Jak do nas trafić?</p>
+        <div class="h-70 align-items-center d-flex"></div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46080.66635355436!2d15.148600109777082!3d52.62715652759943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47071d1127efcc9d%3A0xdc55a797667b31b1!2sOwczogr%C3%B3d!5e0!3m2!1spl!2spl!4v1676735498744!5m2!1spl!2spl"
+            width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-center py-3 border-top text-center">
+        <ul>
+            <li>Owczogród 2023</li>
+            <li>
+                <div style="text-align:center; margin-top:15px;">
+                    <div style="display: inline; margin-right:15px">
+                        <a href="https://www.instagram.com/owczogrod/">
+                            <i class="fa-brands fa-instagram fa-2x"></i></a>
+                    </div>
+                    <div style="display: inline;">
+                        <a href="https://www.facebook.com/Owczogrod/?locale=pl_PL">
+                            <i class="fa-brands fa-facebook fa-2x"></i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
