@@ -99,3 +99,8 @@ a:link {
   color:black;
   text-decoration: none;
 }
+
+ul {
+    list-style: circle;
+    list-style-position: inside;
+}
